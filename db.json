@@ -1,14 +1,189 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "projects-list": [
+    {
+      "id": "GC017484",
+      "projectId": "GC017484",
+      "projectName": "3DSecure redesign (1st phase)",
+      "stage": "Controlling a Stage",
+      "projectStartDate": "15. 3. 2019",
+      "projectEndDate": "31. 12. 2019",
+      "projectOverallStatus": "Problem"
+    },
+    {
+      "id": "CV099379",
+      "projectId": "CV099379",
+      "projectName": "Contracts distribution",
+      "stage": "Controlling a Stage",
+      "projectStartDate": "2. 10. 2018",
+      "projectEndDate": "31. 5. 2020",
+      "projectOverallStatus": "OK"
+    },
+    {
+      "id": "CV099000",
+      "projectId": "CV099000",
+      "projectName": "Specialty Capex & Rdi",
+      "stage": "Testing",
+      "projectStartDate": "31. 12. 2020",
+      "projectEndDate": "31. 12. 2021",
+      "projectOverallStatus": "Attention"
+    },
+    {
+      "id": "DC099379",
+      "projectId": "DC099379",
+      "projectName": "DDR Diag",
+      "stage": "Controlling a Stage",
+      "projectStartDate": "31. 12. 2021",
+      "projectEndDate": "31. 12. 2022",
+      "projectOverallStatus": "OK"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "project-detail": [
+    {
+      "id": "GC017484",
+      "executiveSummary": {
+        "cap": "!!! NOT_AVAILABLE_IN_DATASET !!!",
+        "previousStatus": "!!! NOT_AVAILABLE_IN_DATASET !!!",
+        "shortStatusDescription": "The project has a long delay, is logged out. The supplier does not cooperate. The project will ask for an extension of the deadline (until 2020).",
+        "detailedStatusDescription": "The supplier did not supply all documents, did not deploy to the ACC environment within the agreed deadline of 1.8.2019 and does not communicate. Everything escalated to the sponsor. The project will apply for an extension until 2020 after receiving the documentation from the supplier.\nbecause of the delay, we will need to increase the budget.\nThe input is changed to the smartkey analysis. We analyze the impacts.",
+        "nextActions": "!!! NOT_AVAILABLE_IN_DATASET !!!",
+        "lastUpdate": "10. 10. 2019 4:49"
+      },
+      "stageOverview": {
+        "stages": [
+          {
+            "stageName": "IP fáze",
+            "status": "Done",
+            "mileStones": [
+              {
+                "name": "Phase Start",
+                "date": "2019-04-01",
+                "status": "Done"
+              },
+              {
+                "name": "Phase End",
+                "date": "2019-06-01",
+                "status": "Done"
+              }
+            ]
+          },
+          {
+            "stageName": "Controlling a Stage",
+            "status": "In Progress",
+            "mileStones": [
+              {
+                "name": "Phase Start",
+                "date": "2019-06-01",
+                "status": "Done"
+              },
+              {
+                "name": "Milestone 1",
+                "date": "2019-07-01",
+                "status": "Done"
+              },
+              {
+                "name": "Milestone 2",
+                "date": "2019-08-01",
+                "status": "Done"
+              },
+              {
+                "name": "Phase End",
+                "date": "2019-09-01",
+                "status": "To Do"
+              }
+            ]
+          },
+          {
+            "stageName": "Testing",
+            "status": "To Do",
+            "mileStones": [
+              {
+                "name": "Phase Start",
+                "date": "2019-09-01",
+                "status": "To Do"
+              },
+              {
+                "name": "Phase End",
+                "date": "2019-12-01",
+                "status": "To Do"
+              }
+            ]
+          }
+        ]
+      },
+      "baselines": [
+        {
+          "type": "currentBaseline",
+          "label": "Last Approved Baseline",
+          "updated": "2019-08-21",
+          "status": "OK",
+          "progress": 0.45
+        },
+        {
+          "type": "originalBaseline",
+          "label": "Original Baseline",
+          "progress": 0.7
+        }
+      ],
+      "categories": {
+        "objective": {
+          "caption": {},
+          "content": {}
+        },
+        "costs": {
+          "caption": {},
+          "content": {}
+        },
+        "risks": {
+          "caption": {},
+          "content": {}
+        },
+        "benefits": {
+          "caption": {},
+          "content": {}
+        },
+        "contacts": {
+          "caption": {},
+          "content": {
+            "directory": [
+              {
+                "contactType": "Project Manager",
+                "name": "Doe John",
+                "email": "pmmanager@test.com",
+                "phone": "+420 737 731 123"
+              },
+              {
+                "contactType": "Project Sponsor",
+                "name": "Passolini Vittorio"
+              },
+              {
+                "contactType": "IT Senior Supplier",
+                "name": "Smith Maria"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "CV099379",
+      "executiveSummary": {
+        "shortStatusDescription": "Project CV099379 Description"
+      },
+      "stageOverview": {}
+    },
+    {
+      "id": "CV099000",
+      "executiveSummary": {
+        "shortStatusDescription": "Project CV099000 Description"
+      },
+      "stageOverview": {}
+    },
+    {
+      "id": "DC099379",
+      "executiveSummary": {
+        "shortStatusDescription": "Project DC099379 Description"
+      },
+      "stageOverview": {}
+    }
+  ]
 }
