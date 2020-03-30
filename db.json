@@ -1,189 +1,433 @@
 {
-  "projects-list": [
+  "Projects": [
     {
-      "id": "GC017484",
-      "projectId": "GC017484",
-      "projectName": "3DSecure redesign (1st phase)",
-      "stage": "Controlling a Stage",
-      "projectStartDate": "15. 3. 2019",
-      "projectEndDate": "31. 12. 2019",
-      "projectOverallStatus": "Problem"
+      "id": "A",
+      "Data": {
+        "ProjectID": "A",
+        "ProjectName": "Test Project A",
+        "CAP2020": "Test",
+        "ProgramName": "Init Test",
+        "ProjectBriefDescription": "Basic data test for project - full basic data",
+        "ProjectDetailDescription": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce dui leo, imperdiet in, aliquam sit amet, feugiat eu, orci. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Nullam justo enim, consectetuer nec, ullamcorper ac, vestibulum in, elit. In sem justo, commodo ut, suscipit at, pharetra vitae, orci. Aliquam id dolor. Duis bibendum, lectus ut viverra rhoncus, dolor nunc faucibus libero, eget facilisis enim ipsum id lacus. Duis condimentum augue id magna semper rutrum. Pellentesque pretium lectus id turpis. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Vestibulum fermentum tortor id mi. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Morbi scelerisque luctus velit. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "ProjectCurrentStage": "Test Stage",
+        "ProjectSponsor": {
+          "Name": "Test ProjectSponsor",
+          "Email": "Test.ProjectSponsor@example.com"
+        },
+        "ProjectManager": {
+          "Name": "Test ProjectManager",
+          "Email": "Test.ProjectManager@example.com"
+        },
+        "ProgramManager": {
+          "Name": "Test ProgramManager",
+          "Email": "Test.ProgramManager@example.com"
+        },
+        "MainSeniorSupplier": {
+          "Name": "Test MainSeniorSupplier",
+          "Email": "Test.MainSeniorSupplier@example.com"
+        },
+        "NASAReleases": null,
+        "ProjectBenefits": null
+      },
+      "Message": null,
+      "MessageType": "OK"
     },
     {
-      "id": "CV099379",
-      "projectId": "CV099379",
-      "projectName": "Contracts distribution",
-      "stage": "Controlling a Stage",
-      "projectStartDate": "2. 10. 2018",
-      "projectEndDate": "31. 5. 2020",
-      "projectOverallStatus": "OK"
+      "id": "B",
+      "Data": {
+        "ProjectID": "B",
+        "ProjectName": "Test Project B",
+        "CAP2020": "Test",
+        "ProgramName": "Init Test",
+        "ProjectBriefDescription": "Basic data test for project - data without people and details",
+        "ProjectDetailDescription": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce dui leo, imperdiet in, aliquam sit amet, feugiat eu, orci. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Nullam justo enim, consectetuer nec, ullamcorper ac, vestibulum in, elit. In sem justo, commodo ut, suscipit at, pharetra vitae, orci. Aliquam id dolor. Duis bibendum, lectus ut viverra rhoncus, dolor nunc faucibus libero, eget facilisis enim ipsum id lacus. Duis condimentum augue id magna semper rutrum. Pellentesque pretium lectus id turpis. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Vestibulum fermentum tortor id mi. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Morbi scelerisque luctus velit. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "ProjectCurrentStage": "Test Stage",
+        "ProjectSponsor": null,
+        "ProjectManager": null,
+        "ProgramManager": null,
+        "MainSeniorSupplier": null,
+        "NASAReleases": "Test NASA",
+        "ProjectBenefits": "Test Benefits"
+      },
+      "Message": null,
+      "MessageType": "OK"
     },
     {
-      "id": "CV099000",
-      "projectId": "CV099000",
-      "projectName": "Specialty Capex & Rdi",
-      "stage": "Testing",
-      "projectStartDate": "31. 12. 2020",
-      "projectEndDate": "31. 12. 2021",
-      "projectOverallStatus": "Attention"
-    },
-    {
-      "id": "DC099379",
-      "projectId": "DC099379",
-      "projectName": "DDR Diag",
-      "stage": "Controlling a Stage",
-      "projectStartDate": "31. 12. 2021",
-      "projectEndDate": "31. 12. 2022",
-      "projectOverallStatus": "OK"
+      "id": "C",
+      "Data": {
+        "ProjectID": "C",
+        "ProjectName": null,
+        "CAP2020": null,
+        "ProgramName": null,
+        "ProjectBriefDescription": "Basic data test for project - empty",
+        "ProjectDetailDescription": null,
+        "ProjectCurrentStage": null,
+        "ProjectSponsor": null,
+        "ProjectManager": null,
+        "ProgramManager": null,
+        "MainSeniorSupplier": null,
+        "NASAReleases": null,
+        "ProjectBenefits": null
+      },
+      "Message": null,
+      "MessageType": "OK"
     }
   ],
-  "project-detail": [
+  "Projects_Detail": [
     {
-      "id": "GC017484",
-      "executiveSummary": {
-        "cap": "!!! NOT_AVAILABLE_IN_DATASET !!!",
-        "previousStatus": "!!! NOT_AVAILABLE_IN_DATASET !!!",
-        "shortStatusDescription": "The project has a long delay, is logged out. The supplier does not cooperate. The project will ask for an extension of the deadline (until 2020).",
-        "detailedStatusDescription": "The supplier did not supply all documents, did not deploy to the ACC environment within the agreed deadline of 1.8.2019 and does not communicate. Everything escalated to the sponsor. The project will apply for an extension until 2020 after receiving the documentation from the supplier.\nbecause of the delay, we will need to increase the budget.\nThe input is changed to the smartkey analysis. We analyze the impacts.",
-        "nextActions": "!!! NOT_AVAILABLE_IN_DATASET !!!",
-        "lastUpdate": "10. 10. 2019 4:49"
-      },
-      "stageOverview": {
-        "stages": [
+      "id": "A",
+      "Data": {
+        "Basics": {
+          "ProjectID": "A",
+          "ProjectName": "Test Project A",
+          "CAP2020": "Test",
+          "ProgramName": "Init Test",
+          "ProjectBriefDescription": "Basic data test for project - full object",
+          "ProjectDetailDescription": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce dui leo, imperdiet in, aliquam sit amet, feugiat eu, orci. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Nullam justo enim, consectetuer nec, ullamcorper ac, vestibulum in, elit. In sem justo, commodo ut, suscipit at, pharetra vitae, orci. Aliquam id dolor. Duis bibendum, lectus ut viverra rhoncus, dolor nunc faucibus libero, eget facilisis enim ipsum id lacus. Duis condimentum augue id magna semper rutrum. Pellentesque pretium lectus id turpis. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Vestibulum fermentum tortor id mi. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Morbi scelerisque luctus velit. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "ProjectCurrentStage": "Test Stage",
+          "ProjectSponsor": {
+            "Name": "Test ProjectSponsor",
+            "Email": "Test.ProjectSponsor@example.com"
+          },
+          "ProjectManager": {
+            "Name": "Test ProjectManager",
+            "Email": "Test.ProjectManager@example.com"
+          },
+          "ProgramManager": {
+            "Name": "Test ProgramManager",
+            "Email": "Test.ProgramManager@example.com"
+          },
+          "MainSeniorSupplier": {
+            "Name": "Test MainSeniorSupplier",
+            "Email": "Test.MainSeniorSupplier@example.com"
+          },
+          "NASAReleases": "Test NASA",
+          "ProjectBenefits": "Test Benefits"
+        },
+        "Timing": {
+          "BaselineStart_SU": "2020-02-06T16:24:30.6579492+01:00",
+          "BaselineEnd_SU": "2020-02-16T16:24:30.6579492+01:00",
+          "BaselineStart_IP": "2020-02-06T16:24:30.6579492+01:00",
+          "BaselineEnd_IP": "2020-02-13T16:24:30.6579492+01:00",
+          "BaselineStart_CS": "2020-02-06T16:24:30.6579492+01:00",
+          "BaselineEnd_CS": "2020-02-14T16:24:30.6579492+01:00",
+          "BaselineStart_CP": "2020-02-06T16:24:30.6579492+01:00",
+          "BaselineEnd_CP": "2020-02-15T16:24:30.6579492+01:00",
+          "SU_Start": "2020-02-11T16:24:30.6579492+01:00",
+          "SU_End": "2020-02-21T16:24:30.6579492+01:00",
+          "IP_Start": "2020-02-11T16:24:30.6579492+01:00",
+          "IP_End": "2020-02-21T16:24:30.6579492+01:00",
+          "CS_Start": "2020-02-11T16:24:30.6579492+01:00",
+          "CS_End": "2020-02-21T16:24:30.6579492+01:00",
+          "CP_Start": "2020-02-11T16:24:30.6579492+01:00",
+          "CP_End": "2020-02-21T16:24:30.6579492+01:00",
+          "DateReadyForUse": "2020-02-06T16:24:30.6579492+01:00"
+        },
+        "Costs": {
+          "BudgetApp": {
+            "IT_MD_Internal": 3,
+            "IT_MD_External": 7,
+            "IT_Money_Opex": 175175.321,
+            "IT_Money_Capex": 150150,
+            "BUS_Money_Opex": 20.5,
+            "BUS_Money_Capex": 10.5
+          },
+          "PWAApp": {
+            "IT_MD_Internal": 1500,
+            "IT_MD_External": 2000
+          },
+          "ApptioApp": {
+            "IT_MD_Internal": 200,
+            "IT_MD_External": 300,
+            "IT_Money_Opex": 1800000.333,
+            "IT_Money_Capex": 1700000.4,
+            "BUS_Money_Opex": 145.456,
+            "BUS_Money_Capex": 12.5
+          },
+          "ROFOList": {
+            "IT_MD_Internal": 900,
+            "IT_MD_External": 700,
+            "IT_Money_Opex": 211800000,
+            "IT_Money_Capex": 211700000.4,
+            "BUS_Money_Opex": 345.456,
+            "BUS_Money_Capex": 212.5
+          }
+        },
+        "Stages": [
           {
-            "stageName": "IP fáze",
-            "status": "Done",
-            "mileStones": [
-              {
-                "name": "Phase Start",
-                "date": "2019-04-01",
-                "status": "Done"
-              },
-              {
-                "name": "Phase End",
-                "date": "2019-06-01",
-                "status": "Done"
-              }
-            ]
+            "TaskName": "1 - The beginning",
+            "TaskStart": "2020-02-06T16:24:30.6579492+01:00",
+            "TaskEnd": "2020-03-06T16:24:30.6579492+02:00",
+            "Status": "Finished"
           },
           {
-            "stageName": "Controlling a Stage",
-            "status": "In Progress",
-            "mileStones": [
-              {
-                "name": "Phase Start",
-                "date": "2019-06-01",
-                "status": "Done"
-              },
-              {
-                "name": "Milestone 1",
-                "date": "2019-07-01",
-                "status": "Done"
-              },
-              {
-                "name": "Milestone 2",
-                "date": "2019-08-01",
-                "status": "Done"
-              },
-              {
-                "name": "Phase End",
-                "date": "2019-09-01",
-                "status": "To Do"
-              }
-            ]
+            "TaskName": "2 - The middle",
+            "TaskStart": "2020-03-06T16:24:30.6579492+01:00",
+            "TaskEnd": "2020-04-06T16:24:30.6579492+02:00",
+            "Status":  "Finished"
           },
           {
-            "stageName": "Testing",
-            "status": "To Do",
-            "mileStones": [
-              {
-                "name": "Phase Start",
-                "date": "2019-09-01",
-                "status": "To Do"
-              },
-              {
-                "name": "Phase End",
-                "date": "2019-12-01",
-                "status": "To Do"
-              }
-            ]
+            "TaskName": "3 - The end",
+            "TaskStart": "2020-04-06T16:24:30.6579492+01:00",
+            "TaskEnd": "2020-05-06T16:24:30.6579492+02:00",
+            "Status":  "In Progress"
+          },
+          {
+            "TaskName": "4 - The very end",
+            "TaskStart": "2020-05-06T16:24:30.6579492+01:00",
+            "TaskEnd": "2020-06-06T16:24:30.6579492+02:00",
+            "Status":  "Waiting"
+          }
+        ],
+        "Milestones": [
+          [{
+            "TaskName": "Milestone 1.1",
+            "TaskStart": "2020-02-09T16:24:30.6579492+01:00",
+            "TaskEnd": "2020-02-09T16:24:30.6579492+01:00"
+          },
+          {
+            "TaskName": "Milestone 1.2",
+            "TaskStart": "2020-02-12T16:24:30.6579492+01:00",
+            "TaskEnd": "2020-02-12T16:24:30.6579492+01:00"
+          }],
+          [{
+            "TaskName": "Milestone 2.1",
+            "TaskStart": "2020-03-09T16:24:30.6579492+01:00",
+            "TaskEnd": "2020-03-09T16:24:30.6579492+01:00"
+          },
+          {
+            "TaskName": "Milestone 2.2",
+            "TaskStart": "2020-03-12T16:24:30.6579492+01:00",
+            "TaskEnd": "2020-03-12T16:24:30.6579492+01:00"
+          }],
+          [{
+            "TaskName": "Milestone 3.1",
+            "TaskStart": "2020-02-15T16:24:30.6579492+01:00",
+            "TaskEnd": "2020-02-15T16:24:30.6579492+01:00"
+          },
+          {
+            "TaskName": "Milestone 3.2",
+            "TaskStart": "2020-04-01T16:24:30.6579492+01:00",
+            "TaskEnd": "2020-04-01T16:24:30.6579492+01:00"
+          }],
+          [{
+            "TaskName": "Milestone 4.1",
+            "TaskStart": "2020-01-15T16:24:30.6579492+01:00",
+            "TaskEnd": "2020-01-15T16:24:30.6579492+01:00"
+          },
+          {
+            "TaskName": "Milestone 4.2",
+            "TaskStart": "2020-03-01T16:24:30.6579492+01:00",
+            "TaskEnd": "2020-03-01T16:24:30.6579492+01:00"
+          }]
+        ],
+        "Risks": [
+          {
+            "RiskID": "R1",
+            "RiskShortName": "Test Risk 1",
+            "RiskBusinessImpactDescription": "Sample description",
+            "RiskRating": "Low"
+          },
+          {
+            "RiskID": "R2",
+            "RiskShortName": "Test Risk 2",
+            "RiskBusinessImpactDescription": "Sample description",
+            "RiskRating": "Medium"
+          },
+          {
+            "RiskID": "R3",
+            "RiskShortName": "Test Risk 1",
+            "RiskBusinessImpactDescription": "Sample description",
+            "RiskRating": "High"
           }
         ]
       },
-      "baselines": [
-        {
-          "type": "currentBaseline",
-          "label": "Last Approved Baseline",
-          "updated": "2019-08-21",
-          "status": "OK",
-          "progress": 0.45
+      "Message": null,
+      "MessageType": "OK"
+    },
+    {
+      "id": "B",
+      "Data": {
+        "Basics": {
+          "ProjectID": "B",
+          "ProjectName": "Test Project B",
+          "CAP2020": "Test",
+          "ProgramName": "Init Test",
+          "ProjectBriefDescription": "Basic data test for project - data without people",
+          "ProjectDetailDescription": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce dui leo, imperdiet in, aliquam sit amet, feugiat eu, orci. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Nullam justo enim, consectetuer nec, ullamcorper ac, vestibulum in, elit. In sem justo, commodo ut, suscipit at, pharetra vitae, orci. Aliquam id dolor. Duis bibendum, lectus ut viverra rhoncus, dolor nunc faucibus libero, eget facilisis enim ipsum id lacus. Duis condimentum augue id magna semper rutrum. Pellentesque pretium lectus id turpis. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Vestibulum fermentum tortor id mi. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Morbi scelerisque luctus velit. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "ProjectCurrentStage": "Test Stage",
+          "ProjectSponsor": null,
+          "ProjectManager": null,
+          "ProgramManager": null,
+          "MainSeniorSupplier": null,
+          "NASAReleases": null,
+          "ProjectBenefits": null
         },
-        {
-          "type": "originalBaseline",
-          "label": "Original Baseline",
-          "progress": 0.7
-        }
-      ],
-      "categories": {
-        "objective": {
-          "caption": {},
-          "content": {}
+        "Timing": {
+          "BaselineStart_SU": "2020-02-06T16:25:12.4260079+01:00",
+          "BaselineEnd_SU": "2020-02-16T16:25:12.4260079+01:00",
+          "BaselineStart_IP": "2020-02-06T16:25:12.4260079+01:00",
+          "BaselineEnd_IP": "2020-02-13T16:25:12.4260079+01:00",
+          "BaselineStart_CS": "2020-02-06T16:25:12.4260079+01:00",
+          "BaselineEnd_CS": "2020-02-14T16:25:12.4260079+01:00",
+          "BaselineStart_CP": "2020-02-06T16:25:12.4260079+01:00",
+          "BaselineEnd_CP": "2020-02-15T16:25:12.4260079+01:00",
+          "SU_Start": "2020-02-11T16:25:12.4260079+01:00",
+          "SU_End": "2020-02-21T16:25:12.4260079+01:00",
+          "IP_Start": "2020-02-11T16:25:12.4260079+01:00",
+          "IP_End": "2020-02-21T16:25:12.4260079+01:00",
+          "CS_Start": "2020-02-11T16:25:12.4260079+01:00",
+          "CS_End": "2020-02-21T16:25:12.4260079+01:00",
+          "CP_Start": "2020-02-11T16:25:12.4260079+01:00",
+          "CP_End": "2020-02-21T16:25:12.4260079+01:00",
+          "DateReadyForUse": "2020-02-06T16:25:12.4260079+01:00"
         },
-        "costs": {
-          "caption": {},
-          "content": {}
-        },
-        "risks": {
-          "caption": {},
-          "content": {}
-        },
-        "benefits": {
-          "caption": {},
-          "content": {}
-        },
-        "contacts": {
-          "caption": {},
-          "content": {
-            "directory": [
-              {
-                "contactType": "Project Manager",
-                "name": "Doe John",
-                "email": "pmmanager@test.com",
-                "phone": "+420 737 731 123"
-              },
-              {
-                "contactType": "Project Sponsor",
-                "name": "Passolini Vittorio"
-              },
-              {
-                "contactType": "IT Senior Supplier",
-                "name": "Smith Maria"
-              }
-            ]
+        "Costs": {
+          "BudgetApp": {
+            "IT_MD_Internal": 3,
+            "IT_MD_External": 7,
+            "IT_Money_Opex": 175175.321,
+            "IT_Money_Capex": 150150,
+            "BUS_Money_Opex": 20.5,
+            "BUS_Money_Capex": 10.5
+          },
+          "PWAApp": {
+            "IT_MD_Internal": 1500,
+            "IT_MD_External": 2000
+          },
+          "ApptioApp": {
+            "IT_MD_Internal": 200,
+            "IT_MD_External": 300,
+            "IT_Money_Opex": 1800000.333,
+            "IT_Money_Capex": 1700000.4,
+            "BUS_Money_Opex": 145.456,
+            "BUS_Money_Capex": 12.5
+          },
+          "ROFOList": {
+            "IT_MD_Internal": 900,
+            "IT_MD_External": 700,
+            "IT_Money_Opex": 211800000,
+            "IT_Money_Capex": 211700000.4,
+            "BUS_Money_Opex": 345.456,
+            "BUS_Money_Capex": 212.5
           }
-        }
-      }
+        },
+        "Stages": [
+          {
+            "TaskName": "Stage 1 - The test",
+            "TaskStart": "2020-02-06T16:25:12.4260079+01:00",
+            "TaskEnd": "2020-04-06T16:25:12.4260079+02:00"
+          }
+        ],
+        "Milestones": [
+          {
+            "TaskName": "Milestone 1",
+            "TaskStart": "2020-02-06T16:25:12.4260079+01:00",
+            "TaskEnd": "2020-02-06T16:25:12.4260079+01:00"
+          },
+          {
+            "TaskName": "Milestone 2",
+            "TaskStart": "2020-02-16T16:25:12.4260079+01:00",
+            "TaskEnd": "2020-02-16T16:25:12.4260079+01:00"
+          }
+        ],
+        "Risks": [
+          {
+            "RiskID": "R1",
+            "RiskShortName": "Test Risk 1",
+            "RiskBusinessImpactDescription": "Sample description",
+            "RiskRating": "Low"
+          },
+          {
+            "RiskID": "R2",
+            "RiskShortName": "Test Risk 2",
+            "RiskBusinessImpactDescription": "Sample description",
+            "RiskRating": "Medium"
+          },
+          {
+            "RiskID": "R3",
+            "RiskShortName": "Test Risk 1",
+            "RiskBusinessImpactDescription": "Sample description",
+            "RiskRating": "High"
+          }
+        ]
+      },
+      "Message": null,
+      "MessageType": "OK"
     },
     {
-      "id": "CV099379",
-      "executiveSummary": {
-        "shortStatusDescription": "Project CV099379 Description"
+      "id": "C",
+      "Data": {
+        "Basics": {
+          "ProjectID": "C",
+          "ProjectName": null,
+          "CAP2020": null,
+          "ProgramName": null,
+          "ProjectBriefDescription": "Basic data test for project - empty",
+          "ProjectDetailDescription": null,
+          "ProjectCurrentStage": null,
+          "ProjectSponsor": null,
+          "ProjectManager": null,
+          "ProgramManager": null,
+          "MainSeniorSupplier": null,
+          "NASAReleases": null,
+          "ProjectBenefits": null
+        },
+        "Timing": {
+          "BaselineStart_SU": "0001-01-01T00:00:00",
+          "BaselineEnd_SU": "0001-01-01T00:00:00",
+          "BaselineStart_IP": "0001-01-01T00:00:00",
+          "BaselineEnd_IP": "0001-01-01T00:00:00",
+          "BaselineStart_CS": "0001-01-01T00:00:00",
+          "BaselineEnd_CS": "0001-01-01T00:00:00",
+          "BaselineStart_CP": "0001-01-01T00:00:00",
+          "BaselineEnd_CP": "0001-01-01T00:00:00",
+          "SU_Start": "0001-01-01T00:00:00",
+          "SU_End": "0001-01-01T00:00:00",
+          "IP_Start": "0001-01-01T00:00:00",
+          "IP_End": "0001-01-01T00:00:00",
+          "CS_Start": "0001-01-01T00:00:00",
+          "CS_End": "0001-01-01T00:00:00",
+          "CP_Start": "0001-01-01T00:00:00",
+          "CP_End": "0001-01-01T00:00:00",
+          "DateReadyForUse": "0001-01-01T00:00:00"
+        },
+        "Costs": {
+          "BudgetApp": {
+            "IT_MD_Internal": 0,
+            "IT_MD_External": 0,
+            "IT_Money_Opex": 0,
+            "IT_Money_Capex": 0,
+            "BUS_Money_Opex": 0,
+            "BUS_Money_Capex": 0
+          },
+          "PWAApp": {
+            "IT_MD_Internal": 0,
+            "IT_MD_External": 0
+          },
+          "ApptioApp": {
+            "IT_MD_Internal": 0,
+            "IT_MD_External": 0,
+            "IT_Money_Opex": 0,
+            "IT_Money_Capex": 0,
+            "BUS_Money_Opex": 0,
+            "BUS_Money_Capex": 0
+          },
+          "ROFOList": {
+            "IT_MD_Internal": 0,
+            "IT_MD_External": 0,
+            "IT_Money_Opex": 0,
+            "IT_Money_Capex": 0,
+            "BUS_Money_Opex": 0,
+            "BUS_Money_Capex": 0
+          }
+        },
+        "Stages": [],
+        "Milestones": [],
+        "Risks": []
       },
-      "stageOverview": {}
-    },
-    {
-      "id": "CV099000",
-      "executiveSummary": {
-        "shortStatusDescription": "Project CV099000 Description"
-      },
-      "stageOverview": {}
-    },
-    {
-      "id": "DC099379",
-      "executiveSummary": {
-        "shortStatusDescription": "Project DC099379 Description"
-      },
-      "stageOverview": {}
+      "Message": null,
+      "MessageType": "OK"
     }
   ]
 }
