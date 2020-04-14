@@ -1,33 +1,37 @@
 {
   "Projects": [
     {
-      "id": "A",
+      "id": "GC999999",
       "Data": {
-        "ProjectID": "A",
-        "ProjectName": "Test Project A",
-        "CAP2020": "Test",
-        "ProgramName": "Init Test",
-        "ProjectBriefDescription": "Basic data test for project - full basic data",
-        "ProjectDetailDescription": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce dui leo, imperdiet in, aliquam sit amet, feugiat eu, orci. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Nullam justo enim, consectetuer nec, ullamcorper ac, vestibulum in, elit. In sem justo, commodo ut, suscipit at, pharetra vitae, orci. Aliquam id dolor. Duis bibendum, lectus ut viverra rhoncus, dolor nunc faucibus libero, eget facilisis enim ipsum id lacus. Duis condimentum augue id magna semper rutrum. Pellentesque pretium lectus id turpis. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Vestibulum fermentum tortor id mi. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Morbi scelerisque luctus velit. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
-        "ProjectCurrentStage": "Test Stage",
+        "ProjectID": "GC999999",
+        "ProjectName": "[I] Mock response ",
+        "CAP2020": "X - Robotization & Target Architecture",
+        "ProgramName": "INZAGI",
+        "ProjectBriefDescription": "Mock response with all fields, appended from different projects",
+        "ProjectDetailDescription": "Mock response with all fields\nMultiline source",
+        "ProjectCurrentStage": "Controlling a Stage",
+        "ProjectStatus": "Running",
+        "ProjectSiteURL": "https://epm.intranet.csob.cz/PWA/",
         "ProjectSponsor": {
-          "Name": "Test ProjectSponsor",
-          "Email": "Test.ProjectSponsor@example.com"
+          "Name": "XPM ADMIN (999999)",
+          "Email": "xpm16_admin@csob.cz"
         },
         "ProjectManager": {
-          "Name": "Test ProjectManager",
-          "Email": "Test.ProjectManager@example.com"
+          "Name": "XPM ADMIN (999999)",
+          "Email": "xpm16_admin@csob.cz"
         },
         "ProgramManager": {
-          "Name": "Test ProgramManager",
-          "Email": "Test.ProgramManager@example.com"
+          "Name": "XPM ADMIN (999999)",
+          "Email": "xpm16_admin@csob.cz"
         },
         "MainSeniorSupplier": {
-          "Name": "Test MainSeniorSupplier",
-          "Email": "Test.MainSeniorSupplier@example.com"
+          "Name": "XPM ADMIN (999999)",
+          "Email": "xpm16_admin@csob.cz"
         },
-        "NASAReleases": null,
-        "ProjectBenefits": null
+        "ProjectOwner": {
+          "Name": "XPM ADMIN (999999)",
+          "Email": "xpm16_admin@csob.cz"
+        }
       },
       "Message": null,
       "MessageType": "OK"
@@ -35,174 +39,200 @@
   ],
   "Projects_Detail": [
     {
-      "id": "A",
+      "id": "GC999999",
       "Data": {
         "Basics": {
-          "ProjectID": "A",
-          "ProjectName": "Test Project A",
-          "CAP2020": "Test",
-          "ProgramName": "Init Test",
-          "ProjectBriefDescription": "Basic data test for project - full object",
-          "ProjectDetailDescription": "Lorem ipsum ProjectDetailDescription",
-          "ProjectCurrentStage": "Test Stage",
+          "ProjectID": "GC999999",
+          "ProjectName": "[I] Mock response ",
+          "CAP2020": "X - Robotization & Target Architecture",
+          "ProgramName": "INZAGI",
+          "ProjectBriefDescription": "Mock response with all fields, appended from different projects",
+          "ProjectDetailDescription": "Mock response with all fields\nMultiline source",
+          "ProjectCurrentStage": "Controlling a Stage",
+          "ProjectStatus": "Running",
+          "ProjectSiteURL": "https://epm.intranet.csob.cz/PWA/",
           "ProjectSponsor": {
-            "Name": "Test ProjectSponsor",
-            "Email": "Test.ProjectSponsor@example.com"
+            "Name": "XPM ADMIN (999999)",
+            "Email": "xpm16_admin@csob.cz"
           },
           "ProjectManager": {
-            "Name": "Test ProjectManager",
-            "Email": "Test.ProjectManager@example.com"
+            "Name": "XPM ADMIN (999999)",
+            "Email": "xpm16_admin@csob.cz"
           },
           "ProgramManager": {
-            "Name": "Test ProgramManager",
-            "Email": "Test.ProgramManager@example.com"
+            "Name": "XPM ADMIN (999999)",
+            "Email": "xpm16_admin@csob.cz"
           },
           "MainSeniorSupplier": {
-            "Name": "Test MainSeniorSupplier",
-            "Email": "Test.MainSeniorSupplier@example.com"
+            "Name": "XPM ADMIN (999999)",
+            "Email": "xpm16_admin@csob.cz"
           },
-          "NASAReleases": "Test NASA",
-          "ProjectBenefits": "Test Benefits"
+          "ProjectOwner": {
+            "Name": "XPM ADMIN (999999)",
+            "Email": "xpm16_admin@csob.cz"
+          }
         },
         "Timing": {
-          "BaselineStart_SU": "2020-02-06T16:24:30.6579492+01:00",
-          "BaselineEnd_SU": "2020-02-16T16:24:30.6579492+01:00",
-          "BaselineStart_IP": "2020-02-06T16:24:30.6579492+01:00",
-          "BaselineEnd_IP": "2020-02-13T16:24:30.6579492+01:00",
-          "BaselineStart_CS": "2020-02-06T16:24:30.6579492+01:00",
-          "BaselineEnd_CS": "2020-02-14T16:24:30.6579492+01:00",
-          "BaselineStart_CP": "2020-02-06T16:24:30.6579492+01:00",
-          "BaselineEnd_CP": "2020-02-15T16:24:30.6579492+01:00",
-          "SU_Start": "2020-02-11T16:24:30.6579492+01:00",
-          "SU_End": "2020-02-21T16:24:30.6579492+01:00",
-          "IP_Start": "2020-02-11T16:24:30.6579492+01:00",
-          "IP_End": "2020-02-21T16:24:30.6579492+01:00",
-          "CS_Start": "2020-02-11T16:24:30.6579492+01:00",
-          "CS_End": "2020-02-21T16:24:30.6579492+01:00",
-          "CP_Start": "2020-02-11T16:24:30.6579492+01:00",
-          "CP_End": "2020-02-21T16:24:30.6579492+01:00",
-          "DateReadyForUse": "2020-02-06T16:24:30.6579492+01:00"
+          "BaselineStart_SU": "2019-11-14T23:00:00Z",
+          "BaselineEnd_SU": "2019-12-30T23:00:00Z",
+          "BaselineStart_IP": "0001-01-01T00:00:00",
+          "BaselineEnd_IP": "0001-01-01T00:00:00",
+          "BaselineStart_CS": "2019-12-31T23:00:00Z",
+          "BaselineEnd_CS": "2020-12-30T23:00:00Z",
+          "BaselineStart_CP": "2020-12-30T23:00:00Z",
+          "BaselineEnd_CP": "2020-12-30T23:00:00Z",
+          "Start_SU": "2019-11-14T23:00:00Z",
+          "End_SU": "2019-12-30T23:00:00Z",
+          "Start_IP": "0001-01-01T00:00:00",
+          "End_IP": "0001-01-01T00:00:00",
+          "Start_CS": "2019-12-31T23:00:00Z",
+          "End_CS": "2020-12-30T23:00:00Z",
+          "Start_CP": "2020-12-30T23:00:00Z",
+          "End_CP": "0001-01-01T00:00:00",
+          "DateReadyForUse": "2020-12-30T23:00:00Z"
         },
         "Costs": {
           "BudgetApp": {
-            "IT_MD_Internal": 3,
-            "IT_MD_External": 7,
-            "IT_Money_Opex": 175175.321,
-            "IT_Money_Capex": 150150,
-            "BUS_Money_Opex": 20.5,
-            "BUS_Money_Capex": 10.5
+            "IT_MD_Internal": 20990,
+            "IT_MD_External": 72,
+            "IT_Money_Opex": 0,
+            "IT_Money_Capex": 3140540,
+            "BUS_Money_Opex": 0,
+            "BUS_Money_Capex": 0,
+            "BudgetDetails": [
+              {
+                "ItemId": 9732,
+                "Year": 2019,
+                "YearText": "2019",
+                "TypeOfMoney": "ICZ",
+                "TypeOfMoneyCalculated": "IT",
+                "INTMD": -1.7976931348623157e+308,
+                "EXTMD": -1.7976931348623157e+308,
+                "LastApprovedCapex": 3140540,
+                "LastApprovedOpex": 0
+              },
+              {
+                "ItemId": 9733,
+                "Year": 2019,
+                "YearText": "2019",
+                "TypeOfMoney": "ICZ-EXT",
+                "TypeOfMoneyCalculated": "IT",
+                "INTMD": -1.7976931348623157e+308,
+                "EXTMD": -1.7976931348623157e+308,
+                "LastApprovedCapex": 0,
+                "LastApprovedOpex": 0
+              },
+              {
+                "ItemId": 10234,
+                "Year": 2019,
+                "YearText": "2019",
+                "TypeOfMoney": "BUS",
+                "TypeOfMoneyCalculated": "BUS",
+                "INTMD": 56,
+                "EXTMD": 36,
+                "LastApprovedCapex": -1.7976931348623157e+308,
+                "LastApprovedOpex": -1.7976931348623157e+308
+              },
+              {
+                "ItemId": 10756,
+                "Year": 2019,
+                "YearText": "2019",
+                "TypeOfMoney": "BUS",
+                "TypeOfMoneyCalculated": "BUS",
+                "INTMD": 56,
+                "EXTMD": 36,
+                "LastApprovedCapex": -1.7976931348623157e+308,
+                "LastApprovedOpex": -1.7976931348623157e+308
+              },
+              {
+                "ItemId": 10917,
+                "Year": 2019,
+                "YearText": "2019",
+                "TypeOfMoney": "BUSPMP",
+                "TypeOfMoneyCalculated": "BUS",
+                "INTMD": -1.7976931348623157e+308,
+                "EXTMD": -1.7976931348623157e+308,
+                "LastApprovedCapex": 0,
+                "LastApprovedOpex": 0
+              },
+              {
+                "ItemId": 12961,
+                "Year": 2020,
+                "YearText": "2020",
+                "TypeOfMoney": "ICZ",
+                "TypeOfMoneyCalculated": "IT",
+                "INTMD": -1.7976931348623157e+308,
+                "EXTMD": -1.7976931348623157e+308,
+                "LastApprovedCapex": 0,
+                "LastApprovedOpex": 0
+              }
+            ]
           },
-          "PWAApp": {
-            "IT_MD_Internal": 1500,
-            "IT_MD_External": 2000
-          },
-          "ApptioApp": {
-            "IT_MD_Internal": 200,
-            "IT_MD_External": 300,
-            "IT_Money_Opex": 1800000.333,
-            "IT_Money_Capex": 1700000.4,
-            "BUS_Money_Opex": 145.456,
-            "BUS_Money_Capex": 12.5
-          },
+          "PWAApp": null,
+          "ApptioApp": null,
           "ROFOList": {
-            "IT_MD_Internal": 900,
-            "IT_MD_External": 700,
-            "IT_Money_Opex": 211800000,
-            "IT_Money_Capex": 211700000.4,
-            "BUS_Money_Opex": 345.456,
-            "BUS_Money_Capex": 212.5
+            "IT_MD_Internal": 30,
+            "IT_MD_External": 30,
+            "IT_Money_Opex": 200000,
+            "IT_Money_Capex": 0,
+            "BUS_Money_Opex": 0,
+            "BUS_Money_Capex": 0,
+            "RofoDate": "2019-10-29T23:00:00Z"
           }
         },
+        "NASAReleases": [
+          {
+            "ReleaseName": "AREL 2006 CZ/SK LONG",
+            "TacticalFile": "M045756",
+            "ApprovedToScope": "Yes"
+          },
+          {
+            "ReleaseName": "AREL 2010 CZ/SK LONG",
+            "TacticalFile": "M045756",
+            "ApprovedToScope": "No"
+          }
+        ],
+        "ProjectBenefits": [
+          {
+            "Name": "TEST Benefit A",
+            "Measure": null,
+            "DateOfMeasure": "2020-03-18T23:00:00Z",
+            "TacticalID": null,
+            "ReleaseOfProductsForBenefits": null,
+            "OwnerSU": {
+              "Name": "Kaplan Vladimír (06534301)",
+              "Email": "vkaplan@csob.cz"
+            }
+          },
+          {
+            "Name": "TEST B - Benefit",
+            "Measure": null,
+            "DateOfMeasure": "2020-03-11T23:00:00Z",
+            "TacticalID": null,
+            "ReleaseOfProductsForBenefits": null,
+            "OwnerSU": {
+              "Name": "Répal Martin (91506945)",
+              "Email": "marepal@csob.cz"
+            }
+          }
+        ],
         "Stages": [
           {
-            "TaskName": "1 - The beginning",
-            "TaskStart": "2020-02-06T16:24:30.6579492+01:00",
-            "TaskEnd": "2020-03-06T16:24:30.6579492+02:00",
-            "Status": "Finished"
-          },
-          {
-            "TaskName": "2 - The middle",
-            "TaskStart": "2020-03-06T16:24:30.6579492+01:00",
-            "TaskEnd": "2020-04-06T16:24:30.6579492+02:00",
-            "Status":  "Finished"
-          },
-          {
-            "TaskName": "3 - The end",
-            "TaskStart": "2020-04-06T16:24:30.6579492+01:00",
-            "TaskEnd": "2020-05-06T16:24:30.6579492+02:00",
-            "Status":  "In Progress"
-          },
-          {
-            "TaskName": "4 - The very end",
-            "TaskStart": "2020-05-06T16:24:30.6579492+01:00",
-            "TaskEnd": "2020-06-06T16:24:30.6579492+02:00",
-            "Status":  "Waiting"
+            "TaskName": "TEST souhrn",
+            "TaskStart": "2019-06-18T09:00:00",
+            "TaskEnd": "2019-06-19T09:00:00"
           }
         ],
         "Milestones": [
-          [{
-            "TaskName": "Milestone 1.1",
-            "TaskStart": "2020-02-09T16:24:30.6579492+01:00",
-            "TaskEnd": "2020-02-09T16:24:30.6579492+01:00"
-          },
           {
-            "TaskName": "Milestone 1.2",
-            "TaskStart": "2020-02-12T16:24:30.6579492+01:00",
-            "TaskEnd": "2020-02-12T16:24:30.6579492+01:00"
-          }],
-          [{
-            "TaskName": "Milestone 2.1",
-            "TaskStart": "2020-03-09T16:24:30.6579492+01:00",
-            "TaskEnd": "2020-03-09T16:24:30.6579492+01:00"
-          },
-          {
-            "TaskName": "Milestone 2.2",
-            "TaskStart": "2020-03-12T16:24:30.6579492+01:00",
-            "TaskEnd": "2020-03-12T16:24:30.6579492+01:00"
-          }],
-          [{
-            "TaskName": "Milestone 3.1",
-            "TaskStart": "2020-02-15T16:24:30.6579492+01:00",
-            "TaskEnd": "2020-02-15T16:24:30.6579492+01:00"
-          },
-          {
-            "TaskName": "Milestone 3.2",
-            "TaskStart": "2020-04-01T16:24:30.6579492+01:00",
-            "TaskEnd": "2020-04-01T16:24:30.6579492+01:00"
-          }],
-          [{
-            "TaskName": "Milestone 4.1",
-            "TaskStart": "2020-01-15T16:24:30.6579492+01:00",
-            "TaskEnd": "2020-01-15T16:24:30.6579492+01:00"
-          },
-          {
-            "TaskName": "Milestone 4.2",
-            "TaskStart": "2020-03-01T16:24:30.6579492+01:00",
-            "TaskEnd": "2020-03-01T16:24:30.6579492+01:00"
-          }]
-        ],
-        "Risks": [
-          {
-            "RiskID": "R1",
-            "RiskShortName": "Test Risk 1",
-            "RiskBusinessImpactDescription": "Sample description",
-            "RiskRating": "Low"
-          },
-          {
-            "RiskID": "R2",
-            "RiskShortName": "Test Risk 2",
-            "RiskBusinessImpactDescription": "Sample description",
-            "RiskRating": "Medium"
-          },
-          {
-            "RiskID": "R3",
-            "RiskShortName": "Test Risk 1",
-            "RiskBusinessImpactDescription": "Sample description",
-            "RiskRating": "High"
+            "TaskName": "fdfdfd",
+            "TaskStart": "2019-06-18T09:00:00",
+            "TaskEnd": "2019-06-18T09:00:00"
           }
-        ]
+        ],
+        "Risks": []
       },
-      "Message": null,
+      "Message": "Project id GC999999 loaded",
       "MessageType": "OK"
     }
   ]
